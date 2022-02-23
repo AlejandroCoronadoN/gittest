@@ -17,6 +17,12 @@ def shared_fun(pizza:int, burgers:int):
         pizza (int): number of pizzas
         burgers (int): number of burguers
     """
+    return pizza*burgers
+
+def poem_function():
+    """Prints a poem
+    """
+    print('Roses are red, the sea is blue but there is nothing like Pancho Villa riding a horse')
     return pizza*burgers +2
 
 
