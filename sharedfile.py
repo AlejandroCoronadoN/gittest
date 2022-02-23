@@ -21,3 +21,12 @@ def shared_fun(pizza:int, burgers:int):
         burgers (int): number of burguers
     """
     return pizza*burgers +2
+
+def new_fun(diccionario:dict):
+    """Iterates trough dictionary
+
+    Args:
+        diccionario (dict): any dictionary
+    """
+    for k in diccionario.key():
+        print(k)
