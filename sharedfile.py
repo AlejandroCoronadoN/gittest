@@ -5,10 +5,6 @@ def another_fun():
     """
     print('stuff')
     
-    
-
-    
-    
 def shared_fun(pizza:int, burgers:int):
     """A function that multiplies burgers and pizzas in order to obtain
     the area under the curve of your belly.
@@ -34,3 +30,8 @@ def new_fun(diccionario:dict):
     """
     for k in diccionario.key():
         print(k)
+        
+def last_function():
+    """Testing branch behaviour when making manual pull request
+    """
+    print('This function is not as useless as it seems :D')
