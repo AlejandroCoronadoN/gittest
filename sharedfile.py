@@ -11,7 +11,7 @@ def shared_fun_toto(teni:int):
         #Come on man, who runs with a single teni! thats why is called tenis
         return 0 
     else:
-        return teni*100
+        return teni*1000
 def shared_fun(pizza:int, burgers:int):
     """A function that multiplies burgers and pizzas in order to obtain
     the area under the curve of your belly.
@@ -20,4 +20,4 @@ def shared_fun(pizza:int, burgers:int):
         pizza (int): number of pizzas
         burgers (int): number of burguers
     """
-    return pizza*burgers
+    return pizza*burgers +2
